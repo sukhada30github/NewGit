@@ -15,18 +15,21 @@ public class NewGit {
 			annimation_teachers_list.add("Shetty");
 			annimation_teachers_list.add("Talwar");
 			annimation_teachers_list.add("Bhosle");
+			annimation_teachers_list.add("sonawane");
 			
 			ArrayList<String> web_teachers_list = new ArrayList<>();
 			
 			web_teachers_list.add("Shinde");
 			web_teachers_list.add("Ingle");
 			web_teachers_list.add("Pisal");
+			web_teachers_list.add("sonar");
 			
 			ArrayList<String> AI_teacher_list = new ArrayList<>();
 			
 			AI_teacher_list.add("Chamle");
 			AI_teacher_list.add("Kasle");
 			AI_teacher_list.add("Dounkar");
+			AI_teacher_list.add("patil");
 			
 			HashMap<String, ArrayList<String>> Department = new HashMap<>();
 			
@@ -57,6 +60,7 @@ public class NewGit {
 				String next2=itr2.next();
 				System.out.println("Department  :"  + next2);
 				System.out.println("Teacher Name  :"  + Department.get(next2));
+			
 			}
 			
 		}
